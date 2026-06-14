@@ -1,0 +1,71 @@
+/* ============================================================
+   theme.css — Variabel tema (Light / Dark)
+   Palet sesuai SPESIFIKASI LENGKAP KAS PETANI (bagian 3)
+   ============================================================ */
+
+:root {
+  /* Palet utama */
+  --white: #ffffff;
+  --cream: #fff8e7;
+  --cream-dark: #f5f5dc;
+  --green: #2e7d32;       /* Hijau Pertanian */
+  --green-light: #4caf50; /* Hijau Muda */
+  --charcoal: #333333;
+  --gray: #757575;
+  --red: #d32f2f;
+  --orange: #f57c00;
+  --blue: #1976d2;
+
+  /* Token semantik — Mode Siang (default) */
+  --bg: var(--white);
+  --bg-2: #fafafa;
+  --card: var(--cream);
+  --card-2: #ffffff;
+  --border: var(--cream-dark);
+  --text: var(--charcoal);
+  --text-muted: var(--gray);
+  --accent: var(--green);
+  --accent-hover: var(--green-light);
+  --accent-contrast: #ffffff;
+  --shadow: 0 2px 10px rgba(0, 0, 0, 0.06);
+  --shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.12);
+
+  --success: var(--green);
+  --danger: var(--red);
+  --warning: var(--orange);
+  --info: var(--blue);
+
+  --sidebar-bg: #1b5e20;
+  --sidebar-text: #e8f5e9;
+  --sidebar-active: #2e7d32;
+
+  --radius: 14px;
+  --radius-sm: 8px;
+  --transition: 0.2s ease;
+  --header-h: 64px;
+  --sidebar-w: 250px;
+}
+
+[data-theme="dark"] {
+  --bg: #1a1a2e;
+  --bg-2: #14142b;
+  --card: #16213e;
+  --card-2: #1d2b4f;
+  --border: #2a3a5e;
+  --text: #eaeaea;
+  --text-muted: #9aa4bf;
+  --accent: #4caf50;
+  --accent-hover: #66bb6a;
+  --accent-contrast: #0b1020;
+  --shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
+  --shadow-lg: 0 16px 40px rgba(0, 0, 0, 0.5);
+
+  --success: #66bb6a;
+  --danger: #ef5350;
+  --warning: #ffa726;
+  --info: #42a5f5;
+
+  --sidebar-bg: #0f1b33;
+  --sidebar-text: #c7d2e8;
+  --sidebar-active: #1f7a3a;
+}

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8d6e63"/><stop offset="1" stop-color="#4e342e"/></linearGradient></defs>
+<rect width="600" height="400" fill="url(#g)"/>
+<circle cx="500" cy="80" r="46" fill="#ffffff" opacity="0.25"/>
+<path d="M0 280 Q150 230 300 280 T600 280 V400 H0 Z" fill="#000" opacity="0.12"/>
+<text x="300" y="210" font-family="Segoe UI, sans-serif" font-size="34" font-weight="700" fill="#ffffff" text-anchor="middle" opacity="0.95">KARET</text>
+</svg>
